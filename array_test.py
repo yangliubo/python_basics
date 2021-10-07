@@ -8,6 +8,15 @@
 
 
 # 创建一个二维数组
+# 循环创建
+array_two_dimension = []
+for j in range(3):
+    row_list = []
+    for x in range(3):
+        row_list.append(x**2)
+    array_two_dimension.append(row_list) 
+print(array_two_dimension)
 
-m = [0 for i in range(3)]
-print(m)
+# li列表推导式
+array_two_dimension_concision = [[x**2 for x in range(3)] for i in range(3)]
+print(array_two_dimension_concision)
