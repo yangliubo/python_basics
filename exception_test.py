@@ -12,11 +12,13 @@ a = '123'
 try :
     b = a + 1
 
-except :
-    print('a不是数字类型数据')
+except  Exception as err:
+    print('a不是数字类型数据',err)
 
 else:
     print('b顺利生成')
+
+
 
 #抛出异常
 
