@@ -6,6 +6,7 @@
 '''
 #python 捕获异常
 '''
+https://www.cnblogs.com/beile/p/10789333.html
 当发生异常时，我们就需要对异常进行捕获，然后进行相应的处理。python的异常捕获常用try...except...结构，
 把可能发生错误的语句放在try模块里，用except来处理异常，每一个try，都必须至少对应一个except。此外，与python异常相关的关键字主要有：
 try/except : 捕获并处理异常
