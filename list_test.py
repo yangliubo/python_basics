@@ -13,6 +13,8 @@ list_2 = [x**3 for x in range(3)]
 print(list_2) 
 list_3 = list(map(lambda x:x*3, range(3)))
 print(list_3)
+list_4 = ['a' for i in range(3)]
+print(list_4)
 
 # 二、列表与string互转
 # 1、str to list
