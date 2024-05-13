@@ -37,5 +37,11 @@ str_2 = ''.join([str(x) for x in list_2])
 print(str_2)
 
 # 三、list相关操作
+list_1 = ['a','b','c']
+print('------',list_1[-8:])
+
+list_1 = ['a','a','b','c']
+x  = set(list_1)
+print(x)
 
 # 四、list的一些方法
