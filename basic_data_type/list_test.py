@@ -28,6 +28,7 @@ print(list_2)
 
 # 2、list to str
 # 方法1：''.join(list) 注意 该方法中list的元素必须是str类型，非str类型的如Int类型必须先转为str类型
+# string可以当做list来处理  但是list不能直接变为str  需要用join函数
 
 list_1 = ['a','b','c','d','e']
 str_1 = ''.join(list_1)
