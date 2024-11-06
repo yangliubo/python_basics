@@ -6,4 +6,9 @@ print(d.keys())
 for i in d:
     print(i)
     
-print('ae' in d.keys())
+# print('ae' in d.keys())
+
+
+x= [{'a':1},{'b':2}]
+for i in x:
+    print(str(i))

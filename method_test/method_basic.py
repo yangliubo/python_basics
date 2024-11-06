@@ -20,7 +20,8 @@ fun_list()
 print(fun_list())
 
 def fun_list1(a=None):
-    a = []
+    if a is None:
+        a = []
     a.append('a')
     return a 
 fun_list1()
